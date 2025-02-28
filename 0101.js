@@ -66,7 +66,7 @@ git add .                   temporarily all files
 git commit -m 'remarks'     commit files，snapshot staging area contents
 git status                  view file status,detailed information
 git status -s               view file status,brief information
-git ls -files               view staging area file list
+git ls-files               view staging area file list
 git restore filePath/.      restore from the staging area to the working area,current/all
 git rm --cached filePath    remove files from the staging area
 git log                     view commited info,detailed
