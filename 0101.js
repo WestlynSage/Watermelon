@@ -51,9 +51,11 @@ password.txt
 //merge and commit
 
 //merge conflicts
-//(fix conflict)
-//git add .
-//git commit -m 'remarks'
+/*
+(fix conflict)
+git add .
+git commit -m 'remarks'
+*/
 
 // Command Summary
 /*
@@ -87,3 +89,19 @@ git remote -v
 git push -u Watermelon main
 */
 
+
+// remote repository - clone
+//git clone remoteRepositoryPath
+/*
+(for instance)
+(open git bash here)
+git clone http://xxxxxxx.git
+cd git_study/
+git log --online
+(open with vscode)
+
+(person A)
+git push -u Watermelon main:main
+(person B)
+git pull Watermelon main:main
+*/
