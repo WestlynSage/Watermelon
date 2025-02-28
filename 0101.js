@@ -80,5 +80,10 @@ git merge branchName        merge branches
 */
 
 //git remote repository  (Gitee,GitLab,GitHub...)
-
+/*
+git remote add repositoryName path
+git remote remove repositoryName
+git remote -v
+git push -u Watermelon main
+*/
 
